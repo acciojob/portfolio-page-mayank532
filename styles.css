@@ -1,2 +1,29 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
 
-/* Your CSS Code here. */
+
+.header{
+    background-color: rgb(207, 204, 204);
+    padding:20px;
+    text-align: center;
+    color: black;
+}
+
+.stn{
+    float: left;
+    background-color: rgb(174, 199, 221);
+    text-align: left;
+    color: black;
+    padding: 20px;
+    font-size: larger;
+    width: 50%;
+}
+.Ftr{
+    background-color: rgb(176, 170, 170);
+    flex: auto;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
